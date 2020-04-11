@@ -4,7 +4,7 @@ import Fetch from "isomorphic-unfetch";
 
 const Index = props => (
   <Layout>
-    <h1 className="example">Welcome to BitPrices</h1>
+    <h1>Welcome to BitPrices</h1>
     <h1>Price</h1>
 
     <Prices bpi={props.bpi} />

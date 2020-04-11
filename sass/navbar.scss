@@ -1,0 +1,20 @@
+.navbar {
+    background: linear-gradient(
+      rgba(19, 105, 239, 1) 15%,
+      rgba(13, 25, 169, 1) 50%,
+      rgba(12, 12, 157, 1) 100%
+    );
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  a {
+    color: #338bff;
+    font-size: 20px;
+    margin: 2px 5px;
+    padding-top: 15px;
+    text-decoration: none;
+    padding: 15px;
+  }
+}

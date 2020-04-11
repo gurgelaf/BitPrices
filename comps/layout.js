@@ -1,9 +1,8 @@
 import Navbar from "./navbar";
 import Head from "next/head";
-import Css from "./css";
-
+import "../sass/layout.scss"
 const Layout = ({ children }) => (
-  <div>
+  <div className="layout">
     <Head>
       <meta charSet="utf-8" />
       <title>BitPrices</title>
@@ -12,8 +11,6 @@ const Layout = ({ children }) => (
     <Navbar />
 
     {children}
-
-    <Css />
   </div>
 );
 

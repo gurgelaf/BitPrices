@@ -11,7 +11,6 @@ const Prices = props => {
       </p>
       <select onInput={e => setCurrency(e.target.value)}>
         <option value={currency}>{currency}</option>
-        <hr />
         <option value="USD">USD</option>
         <option value="GBP">GBP</option>
         <option value="EUR">EUR</option>
