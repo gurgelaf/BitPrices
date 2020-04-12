@@ -6,6 +6,7 @@
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "isomorphic-unfetch": "^3.0.0",
+    "kind-of": "6.0.3",
     "next": "^9.3.4",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
